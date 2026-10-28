@@ -1,5 +1,3 @@
----@module "plenary.path"
-
 local M = {}
 
 local function get_default_yazi_border()

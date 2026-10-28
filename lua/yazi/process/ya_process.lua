@@ -1,5 +1,3 @@
----@module "plenary.path"
-
 local Log = require("yazi.log")
 local event_source = require("yazi.process.event_source")
 local utils = require("yazi.utils")

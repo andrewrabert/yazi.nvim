@@ -2,7 +2,7 @@ local assert = require("luassert")
 local config_module = require("yazi.config")
 local keybinding_helpers = require("yazi.keybinding_helpers")
 local match = require("luassert.match")
-local plenary_path = require("plenary.path")
+local plenary_path = require("yazi.path")
 local stub = require("luassert.stub")
 local spy = require("luassert.spy")
 

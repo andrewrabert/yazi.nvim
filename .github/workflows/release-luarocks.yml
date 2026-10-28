@@ -27,6 +27,3 @@ jobs:
         env:
           LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
         with:
-          # https://github.com/marketplace/actions/luarocks-tag-release#dependencies
-          dependencies: |
-            plenary.nvim

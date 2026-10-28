@@ -8,7 +8,6 @@ source = {
 dependencies = {
   -- Add runtime dependencies here
   -- e.g. "plenary.nvim",
-  "plenary.nvim",
 }
 test_dependencies = {
   "nlua",

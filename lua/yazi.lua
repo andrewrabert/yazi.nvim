@@ -1,5 +1,3 @@
----@module "plenary"
-
 local ActiveContexts = require("yazi.active_contexts")
 local configModule = require("yazi.config")
 

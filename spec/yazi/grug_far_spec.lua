@@ -1,9 +1,7 @@
----@module "plenary.path"
-
 local assert = require("luassert")
 local mock = require("luassert.mock")
 local config = require("yazi.config")
-local plenary_path = require("plenary.path")
+local plenary_path = require("yazi.path")
 
 describe("the grug-far integration (search and replace)", function()
   local mock_grug_far = { open = function() end }

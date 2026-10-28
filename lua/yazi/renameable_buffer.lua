@@ -1,4 +1,4 @@
-local plenary_path = require("plenary.path")
+local plenary_path = require("yazi.path")
 
 ---@param path string
 local function remove_trailing_slash(path)

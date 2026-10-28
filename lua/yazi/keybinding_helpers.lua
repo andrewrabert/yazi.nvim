@@ -1,5 +1,3 @@
----@module "plenary.path"
-
 local openers = require("yazi.openers")
 local Log = require("yazi.log")
 local utils = require("yazi.utils")
@@ -239,7 +237,7 @@ function YaziOpenerActions.grep_in_selected_files(config, chosen_files)
     return
   end
 
-  local plenary_path = require("plenary.path")
+  local plenary_path = require("yazi.path")
 
   ---@type Path[]
   local paths = {}
@@ -308,7 +306,7 @@ function YaziOpenerActions.replace_in_selected_files(config, chosen_files)
   end
 
   -- limit the replace operation to the selected files only
-  local plenary_path = require("plenary.path")
+  local plenary_path = require("yazi.path")
   local paths = {}
   for _, path in ipairs(chosen_files) do
     table.insert(paths, plenary_path:new(path))

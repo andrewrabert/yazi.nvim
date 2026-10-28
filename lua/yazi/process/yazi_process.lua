@@ -1,10 +1,8 @@
----@module "plenary.path"
-
 local YaProcess = require("yazi.process.ya_process")
 local Log = require("yazi.log")
 local utils = require("yazi.utils")
 local YaziProcessApi = require("yazi.process.yazi_process_api")
-local plenary_path = require("plenary.path")
+local plenary_path = require("yazi.path")
 
 ---@class YaziProcess
 ---@field public api YaziProcessApi

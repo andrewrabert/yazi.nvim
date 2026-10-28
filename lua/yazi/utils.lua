@@ -1,5 +1,5 @@
 local RenameableBuffer = require("yazi.renameable_buffer")
-local plenary_path = require("plenary.path")
+local plenary_path = require("yazi.path")
 
 local M = {}
 

@@ -1,7 +1,5 @@
 -- TODO all config properties are optional when given, but mandatory inside the plugin
 
----@module "plenary.path"
-
 ---@alias YaziFloatingWindowScaling { height: number, width: number }
 
 ---@class (exact) YaziConfig
